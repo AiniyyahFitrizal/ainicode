@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web pertama</title>
+    <link rel="stylesheet"href="style.css"/>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="aseets/icon/contract.png" alt="logo" class="logo-img"/>
+            <h1 class="logo-title">AINI</h1>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#keterampilan">Keterampilan</a></li>
+                <li><a href="mailto:ainiyyahfitrizal05@gmail.com">Kontak</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <p class="title">Hello saya Ainiyyah Fitrizal</p>
+            <p class="description">Saya adalah mahasiswa Teknik Informatika di Universitas Indraprasta PGRI</p>
+            <img src="aseets/img/aini.jpeg"alt="ainiyyah fitrizal foto 1" class="img-foto"/>
+        </div>
+    </div>
+    <div class="paralax">
+        <div class="tentang">
+            <p class="title">Tentang Saya : </p>
+            <p class="description">Saya merupakan pribadi yang pekerja keras, cepat beradaptasi dengan lingkungan, bertanggung jawab, jujur, disiplin, teliti dalam hal pekerjaan, serta dapat bekerja secara tim maupun individu.</p>
+            <div class="mt-10">
+                <button class="btn-cta" onclick="redirWhatsapp()">Mari Kerjasama</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card" id="keterampilan">
+                        <div class="card-item">
+                            <img src="aseets/icon/ms-office.jpeg" alt="icon 1" class="icon"/>
+                            <p class="card-title">Saya mampu mengoperasikan</p>
+                            <p class="card-description">Microsoft Office (Word, Excel, dan Power Point).</p>
+                        </div> 
+                        <div class="card-item">
+                            <img src="aseets/icon/kreatif.jpeg" alt="icon 2" class="icon"/>
+                            <p class="card-title">Saya seorang yang</p>
+                            <p class="card-description">Kreatif serta Mampu memecahkan masalah atau problem solving,</p>
+                        </div>
+                        <div class="card-item">
+                                <img src="aseets/icon/icon3.jpeg" alt="icon 3" class="icon"/>
+                                <p class="card-title">Saya seorang yang</p>
+                                <p class="card-description">Komunikatif serta mampu memanajemen waktu yang baik dalam pekerjaan.</p>
+                        </div> 
+            </div>  
+        </div>
+    </div>
+    <footer>
+        <p class="title">&copy; Ainiyyah Fitrizal 2022</p>
+    </footer>
+    <script>
+        function redirInstagram() {
+            window.location.href="https://instagram.com/ainiyyahfitrizal"
+        }
+        function redirWhatsapp() {
+            window.location.href="https://wa.me/+6289506872608"
+        }
+    </script>
+</body>
+</html>
